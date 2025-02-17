@@ -1,0 +1,32 @@
+﻿<Application x:Class="WpfADSModificationCOE.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfADSModificationCOE"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Style global pour les Labels -->
+        <Style TargetType="Label">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Stretch" />
+            <Setter Property="Margin" Value="5,5,5,5"/>
+            <Setter Property="HorizontalContentAlignment" Value ="Center"/>
+            <Setter Property="VerticalContentAlignment" Value ="Center"/>
+        </Style>
+        <!-- Style global pour les Boutons -->
+        <Style TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Stretch" />
+            <Setter Property="Margin" Value="5,5,5,5"/>
+            <Setter Property="HorizontalContentAlignment" Value ="Center"/>
+            <Setter Property="VerticalContentAlignment" Value ="Center"/>
+        </Style>
+        <!-- Style global pour les Text Blox -->
+        <Style TargetType="TextBox">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Stretch" />
+            <Setter Property="Margin" Value="5,5,5,5"/>
+            <Setter Property="HorizontalContentAlignment" Value ="Center"/>
+            <Setter Property="VerticalContentAlignment" Value ="Center"/>
+        </Style>
+    </Application.Resources>
+</Application>
